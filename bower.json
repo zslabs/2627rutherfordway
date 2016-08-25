@@ -1,0 +1,12 @@
+{
+  "name": "basey",
+  "version": "0.0.1",
+  "private": "true",
+  "dependencies": {
+    "uikit": "uikit/uikit#2.20.3",
+    "slick.js": "1.5.5",
+    "jquery-placeholder": "2.*",
+    "svg4everybody": "*",
+    "parsleyjs": "~2.0.7"
+  }
+}

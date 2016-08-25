@@ -1,0 +1,26 @@
+@form-focus-background: @global-background;
+@form-focus-border: @global-border;
+
+// Reset "form-large" styles to appear as normal
+@form-large-height: @form-height;
+@form-large-padding: @form-padding;
+@form-large-font-size: @global-font-size;
+
+.hook-form-misc() {
+
+	.uk-form-label {
+		cursor: pointer;
+		display: block;
+		cursor: pointer;
+	}
+	// Override form icon
+	.uk-form-icon > .bt-icon {
+		&:extend(.uk-form-icon > [class*='uk-icon-']);
+	}
+	.uk-form-icon-flip > .bt-icon {
+		&:extend(.uk-form-icon-flip > [class*='uk-icon-']);
+	}
+}
+.hook-form() {
+	width: 100%;
+}

@@ -1,0 +1,16 @@
+@base-body-font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@base-heading-font-family: @base-body-font-family;
+@base-link-hover-text-decoration : none;
+
+.hook-base-body() {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-variant-numeric: lining-nums;
+  font-feature-settings: "lnum";
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+}
