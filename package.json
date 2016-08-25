@@ -27,6 +27,7 @@
     "gulp-uglify": "2.0.0",
     "imagemin-pngcrush": "5.0.0",
     "jshint": "2.9.3",
-    "merge-stream": "1.0.0"
+    "merge-stream": "1.0.0",
+    "vinyl": "1.2.0"
   }
 }

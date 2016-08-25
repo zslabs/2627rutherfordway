@@ -167,7 +167,9 @@ gulp.task "svg-sprite", ->
 
 # Build to gh-pages branch
 gulp.task "website", ->
-  gulp.src("dist/**/*").pipe $.ghPages()
+  gulp.src("dist/**/*").pipe $.ghPages({
+    'remoteUrl': 'git@github.com:zslabs/2627rutherfordway.git'
+  })
 
 # Watch
 gulp.task "watch", [ "browser-sync" ], ->
