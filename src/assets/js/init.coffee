@@ -1,9 +1,6 @@
 (($) ->
   "use strict"
 
-  # SVG Icons
-  svgSpritePath = 'assets/svg/sprite.svg'
-
   ## Set multiple attributes for element
   setAttributes = (el, attrs) ->
     Array::slice.call(attrs).forEach (attr) ->
@@ -19,7 +16,7 @@
     use.setAttributeNS(
       'http://www.w3.org/1999/xlink',
       'xlink:href',
-      svgSpritePath + '#' + element.getAttribute "data-bt-icon"
+      window.svgSpritePath + '#' + element.getAttribute "data-bt-icon"
     )
 
     svg.appendChild use
