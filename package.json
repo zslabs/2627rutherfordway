@@ -28,6 +28,11 @@
     "imagemin-pngcrush": "5.0.0",
     "jshint": "2.9.3",
     "merge-stream": "1.0.0",
-    "vinyl": "1.2.0"
+    "vinyl": "1.2.0",
+    "uikit": "uikit/uikit#2.20.3",
+    "slick-carousel": "1.5.5",
+    "jquery-placeholder": "2.*",
+    "svg4everybody": "*",
+    "parsleyjs": "~2.0.7"
   }
 }
