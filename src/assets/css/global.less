@@ -502,6 +502,28 @@
   }
 }
 
+.video {
+  padding: (@global-margin * 5) 0;
+}
+
+// 1. 16x9 aspect ratio
+.embed-16x9 {
+  position: relative;
+  padding-bottom: 56.25%; // 1
+
+  iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media (max-width: @breakpoint-medium-max) {
+    margin: 0 -@global-margin;
+  }
+}
+
 #map {
   border-top: 1px solid @global-border;
   position: relative;
