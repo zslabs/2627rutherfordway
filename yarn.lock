@@ -1930,7 +1930,7 @@ gifsicle@^3.0.0:
     bin-wrapper "^3.0.0"
     logalot "^2.0.0"
 
-gift@^0.6.0:
+gift@^0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/gift/-/gift-0.6.1.tgz#c1698e6b6887164ed978a01095423cff65b8e79f"
   dependencies:
@@ -1967,17 +1967,6 @@ glob-stream@^3.1.5:
     through2 "^0.6.1"
     unique-stream "^1.0.0"
 
-glob-stream@^4.0.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/glob-stream/-/glob-stream-4.1.1.tgz#b842df10d688c7eb6bcfcebd846f3852296b3200"
-  dependencies:
-    glob "^4.3.1"
-    glob2base "^0.0.12"
-    minimatch "^2.0.1"
-    ordered-read-streams "^0.1.0"
-    through2 "^0.6.1"
-    unique-stream "^2.0.2"
-
 glob-stream@^5.3.2:
   version "5.3.5"
   resolved "https://registry.yarnpkg.com/glob-stream/-/glob-stream-5.3.5.tgz#a55665a9a8ccdc41915a87c701e32d4e016fad22"
@@ -1994,12 +1983,6 @@ glob-stream@^5.3.2:
 glob-watcher@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/glob-watcher/-/glob-watcher-0.0.6.tgz#b95b4a8df74b39c83298b0c05c978b4d9a3b710b"
-  dependencies:
-    gaze "^0.5.1"
-
-glob-watcher@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/glob-watcher/-/glob-watcher-0.0.8.tgz#68aeb661e7e2ce8d3634381b2ec415f00c6bc2a4"
   dependencies:
     gaze "^0.5.1"
 
@@ -2233,16 +2216,16 @@ gulp-filter@4.0.0:
     multimatch "^2.0.0"
     streamfilter "^1.0.5"
 
-gulp-gh-pages@0.5.1:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/gulp-gh-pages/-/gulp-gh-pages-0.5.1.tgz#59c6ce7c0ac33bd9ae4b08e0d904ab6b0c0f2d33"
+gulp-gh-pages@0.5.4:
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/gulp-gh-pages/-/gulp-gh-pages-0.5.4.tgz#a6732ca475ab9b5a53253c1c24734c40c21b6546"
   dependencies:
-    gift "^0.6.0"
-    gulp-util "^3.0.4"
-    rimraf "^2.3.2"
-    through2 "^0.6.5"
-    vinyl-fs "^1.0.0"
-    wrap-promise "^1.0.0"
+    gift "^0.6.1"
+    gulp-util "^3.0.7"
+    readable-stream "^2.0.2"
+    rimraf "^2.4.3"
+    vinyl-fs "^2.2.1"
+    wrap-promise "^1.0.1"
 
 gulp-imagemin@3.0.3:
   version "3.0.3"
@@ -2379,7 +2362,7 @@ gulp-uglify@2.0.0:
     uglify-save-license "^0.4.1"
     vinyl-sourcemaps-apply "^0.2.0"
 
-gulp-util@^3.0.0, gulp-util@^3.0.1, gulp-util@^3.0.2, gulp-util@^3.0.4, gulp-util@^3.0.6, gulp-util@~3:
+gulp-util@^3.0.0, gulp-util@^3.0.1, gulp-util@^3.0.2, gulp-util@^3.0.4, gulp-util@^3.0.6, gulp-util@^3.0.7, gulp-util@~3:
   version "3.0.8"
   resolved "https://registry.yarnpkg.com/gulp-util/-/gulp-util-3.0.8.tgz#0054e1e744502e27c04c187c3ecc505dd54bbb4f"
   dependencies:
@@ -3715,12 +3698,6 @@ merge-stream@1.0.0:
   dependencies:
     readable-stream "^2.0.1"
 
-merge-stream@^0.1.7:
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/merge-stream/-/merge-stream-0.1.8.tgz#48a07b3b4a121d74a3edbfdcdb4b08adbf0240b1"
-  dependencies:
-    through2 "^0.6.1"
-
 merge-stream@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/merge-stream/-/merge-stream-1.0.1.tgz#4041202d508a342ba00174008df0c251b8c135e1"
@@ -4820,7 +4797,7 @@ right-align@^0.1.1:
   dependencies:
     align-text "^0.1.1"
 
-rimraf@^2.2.6, rimraf@^2.3.2, rimraf@^2.5.4, rimraf@^2.6.1:
+rimraf@^2.2.6, rimraf@^2.4.3, rimraf@^2.5.4, rimraf@^2.6.1:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.2.tgz#2ed8150d24a16ea8651e6d6ef0f47c4158ce7a36"
   dependencies:
@@ -5475,7 +5452,7 @@ through2@^0.5.0:
     readable-stream "~1.0.17"
     xtend "~3.0.0"
 
-through2@^0.6.0, through2@^0.6.1, through2@^0.6.3, through2@^0.6.5, through2@~0.6, through2@~0.6.1:
+through2@^0.6.0, through2@^0.6.1, through2@^0.6.3, through2@~0.6, through2@~0.6.1:
   version "0.6.5"
   resolved "https://registry.yarnpkg.com/through2/-/through2-0.6.5.tgz#41ab9c67b29d57209071410e1d7a7a968cd3ad48"
   dependencies:
@@ -5778,22 +5755,7 @@ vinyl-fs@^0.3.0:
     through2 "^0.6.1"
     vinyl "^0.4.0"
 
-vinyl-fs@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/vinyl-fs/-/vinyl-fs-1.0.0.tgz#d15752e68c2dad74364e7e853473735354692edf"
-  dependencies:
-    duplexify "^3.2.0"
-    glob-stream "^4.0.1"
-    glob-watcher "^0.0.8"
-    graceful-fs "^3.0.0"
-    merge-stream "^0.1.7"
-    mkdirp "^0.5.0"
-    object-assign "^2.0.0"
-    strip-bom "^1.0.0"
-    through2 "^0.6.1"
-    vinyl "^0.4.0"
-
-vinyl-fs@^2.2.0:
+vinyl-fs@^2.2.0, vinyl-fs@^2.2.1:
   version "2.4.4"
   resolved "https://registry.yarnpkg.com/vinyl-fs/-/vinyl-fs-2.4.4.tgz#be6ff3270cb55dfd7d3063640de81f25d7532239"
   dependencies:
@@ -5945,7 +5907,7 @@ wrap-fn@^0.1.0:
   dependencies:
     co "3.1.0"
 
-wrap-promise@^1.0.0:
+wrap-promise@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/wrap-promise/-/wrap-promise-1.0.1.tgz#b019f4236ccbf1fb560921b4b4870b7bda2f5255"
   dependencies:
